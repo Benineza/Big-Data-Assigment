@@ -19,14 +19,14 @@ print(df.isnull().sum())
 df_clean = df.dropna().drop_duplicates().reset_index(drop=True)
 
 # 5. Export cleaned dataset
-df_clean.to_csv("uber_cleaned.csv", index=False)
+df_clean.to_csv("C:/Users/USER/Desktop/project/uber_cleaned.csv", index=False)
 
 # 6. Feature Engineering
-df_clean['Date/Time'] = pd.to_datetime(df_clean['Date/Time'])
-df_clean['hour'] = df_clean['Date/Time'].dt.hour
-df_clean['day'] = df_clean['Date/Time'].dt.day
-df_clean['month'] = df_clean['Date/Time'].dt.month
-df_clean['weekday'] = df_clean['Date/Time'].dt.day_name()
+df_clean['pickup_datetime'] = pd.to_datetime(df_clean['pickup_datetime'])
+df_clean['hour'] = df_clean['pickup_datetime'].dt.hour
+df_clean['day'] = df_clean['pickup_datetime'].dt.day
+df_clean['month'] = df_clean['pickup_datetime'].dt.month
+df_clean['weekday'] = df_clean['pickup_datetime'].dt.day_name()
 
 def peak_offpeak(hour):
     return 'Peak' if (7 <= hour <= 10 or 16 <= hour <= 19) else 'Off-Peak'
@@ -34,7 +34,7 @@ def peak_offpeak(hour):
 df_clean['peak_offpeak'] = df_clean['hour'].apply(peak_offpeak)
 
 # 7. Export enhanced dataset
-df_clean.to_csv("uber_enhanced.csv", index=False)
+df_clean.to_csv("C:/Users/USER/Desktop/project/uber_enhanced.csv", index=False)
 
 # 8. Descriptive Statistics
 print("Mean fare:", df_clean['fare'].mean())
