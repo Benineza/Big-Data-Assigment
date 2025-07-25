@@ -9,6 +9,7 @@ print("Mode fare:", ...)
 ```
 ### B) Visualizations showing fare distribution patterns
 <img width="789" height="486" alt="Image" src="https://github.com/user-attachments/assets/d98272f6-3027-44fe-a089-553341b92f33" />
+
 ### C) Analyzing relationships between key variables:
 ### i) Fare amount vs. Distance traveled
 <img width="531" height="416" alt="Image" src="https://github.com/user-attachments/assets/e66e9731-b8c1-4b35-aa7f-85d476477807" />
