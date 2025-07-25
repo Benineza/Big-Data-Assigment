@@ -7,4 +7,5 @@ print(df_clean.describe())
 print("Mean fare:", ...)
 print("Mode fare:", ...)
 ```
-
+## Visualizations showing fare distribution patterns
+<img width="789" height="486" alt="Image" src="https://github.com/user-attachments/assets/d98272f6-3027-44fe-a089-553341b92f33" />
