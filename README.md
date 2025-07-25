@@ -19,6 +19,5 @@ print("Mode fare:", ...)
 
 ### iii) Additional relevant correlations
 <img width="246" height="199" alt="Image" src="https://github.com/user-attachments/assets/0b648a76-19da-48a3-901b-dc21cdd282da" />
-
 <img width="744" height="507" alt="Image" src="https://github.com/user-attachments/assets/ecc669c0-5e4c-4f26-baed-d3c346cc1fb3" />
 
