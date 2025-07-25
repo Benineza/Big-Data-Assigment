@@ -13,6 +13,8 @@ print("Mode fare:", ...)
 ### C) Analyzing relationships between key variables:
 ### i) Fare amount vs. Distance traveled
 <img width="531" height="416" alt="Image" src="https://github.com/user-attachments/assets/e66e9731-b8c1-4b35-aa7f-85d476477807" />
+
 ### ii) Fare amount vs. time of day
 <img width="536" height="403" alt="Image" src="https://github.com/user-attachments/assets/322a8d7d-03d9-4439-b4e6-d6955173bb0c" />
+
 ### iii) Additional relevant correlations
