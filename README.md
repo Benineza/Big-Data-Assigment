@@ -23,3 +23,7 @@ print("Mode fare:", ...)
 ### Correlation Matrix
 <img width="744" height="507" alt="Image" src="https://github.com/user-attachments/assets/ecc669c0-5e4c-4f26-baed-d3c346cc1fb3" />
 
+## 4. Data Analysis in Power BI
+### Fare patterns across different time intervals
+<img width="1341" height="711" alt="Image" src="https://github.com/user-attachments/assets/3b8e0ab2-f2f3-4b5c-837f-c93c14ec0b26" />
+
