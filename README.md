@@ -24,6 +24,7 @@ print("Mode fare:", ...)
 <img width="744" height="507" alt="Image" src="https://github.com/user-attachments/assets/ecc669c0-5e4c-4f26-baed-d3c346cc1fb3" />
 
 ## 4. Data Analysis in Power BI
-### Fare patterns across different time intervals
-<img width="1341" height="711" alt="Image" src="https://github.com/user-attachments/assets/3b8e0ab2-f2f3-4b5c-837f-c93c14ec0b26" />
+### Fare patterns across different time intervals & Hourly, daily, and monthly ride patterns
+<img width="1336" height="712" alt="Image" src="https://github.com/user-attachments/assets/a35b1ea5-6fd8-4cb8-a6de-eb3695cc2d1b" />
 
+### Seasonal trends and variations
