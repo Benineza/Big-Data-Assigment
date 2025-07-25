@@ -28,3 +28,5 @@ print("Mode fare:", ...)
 <img width="1336" height="712" alt="Image" src="https://github.com/user-attachments/assets/a35b1ea5-6fd8-4cb8-a6de-eb3695cc2d1b" />
 
 ### Seasonal trends and variations
+
+<img width="1346" height="718" alt="Image" src="https://github.com/user-attachments/assets/935b8ae9-f81a-4de4-b22a-883a710ca4f8" />
