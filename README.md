@@ -4,7 +4,7 @@
 ### Project Overview & Objectives
 This analytical initiative explores Uber fare data to focus on patterns in ride frequency, pricing dynamics, and time based trends. The aim is to transform raw data into actionable insights using Python for data wrangling and Power BI for visualization. Key objectives include:
 
-Differences between peak and off-peak periods
+Differences between peak and off peak periods
 
 How fare amounts vary by time and distance
 
@@ -24,18 +24,22 @@ Steps in Python to get data ready:
 * Saved enhanced dataset to uber_enhanced.csv for use in Power BI
 
 ### Analysis: Detailed findings and statistical insights
-EDA Visualizations
+EDA Visualizations:
 * Histogram & Boxplot: Fare distributions showed right-skewed behavior (a few very high fares)
 * Correlation matrix: Fare amount is strongly correlated with distance traveled
 * Time of Day: Fares tend to spike during peak commute hours (7–10 AM, 4–7 PM)
 
-  Descriptive Statistics
+Descriptive Statistics:
 + Mean fare: $11.46
 + Median fare: $8.50
 + Fare range: Mostly $5–$20
-+ Outliers: Some rides above $100, indicating long-distance trips
++ Outliers: Some rides above $100, indicating long distance trips
 
-
+Feature Level Findings:
+* Near linear relationship between fare (fare_amount) and distance (distance_km)
+* Higher fares observed during peak times
+* Weekends display distinct fare patterns compared to weekdays
+### Results: Key discoveries and pattern identification
 
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
