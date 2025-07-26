@@ -18,6 +18,22 @@ The tools I used are:
 ■ Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
 
 ■ Power BI Desktop: Visualizations and dashboard creation
+
+Steps in Python to get data ready:
+
+■ Removed missing and duplicate records
+
+■ Converted pickup_datetime to datetime format
+
+■ Created new features: hour, day, month, weekday, peak_offpeak categorization, distance_km (calculated using latitude/longitude with Haversine formula)
+
+■ Saved enhanced dataset to uber_enhanced.csv for use in Power BI
+
+### Analysis: Detailed findings and statistical insights
+
+
+
+
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
