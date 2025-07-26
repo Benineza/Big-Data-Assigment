@@ -28,6 +28,7 @@ EDA Visualizations
 * Histogram & Boxplot: Fare distributions showed right-skewed behavior (a few very high fares)
 * Correlation matrix: Fare amount is strongly correlated with distance traveled
 * Time of Day: Fares tend to spike during peak commute hours (7–10 AM, 4–7 PM)
+
   Descriptive Statistics
 + Mean fare: $11.46
 + Median fare: $8.50
