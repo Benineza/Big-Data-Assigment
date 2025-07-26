@@ -11,7 +11,6 @@ How fare amounts vary by time and distance
 When rides occur most frequently
 
 Geographic distribution of pickups
-
 ### Methodology: Data collection & analysis approach
 The tools I used are: 
 - Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
@@ -40,7 +39,14 @@ Feature Level Findings:
 * Higher fares observed during peak times
 * Weekends display distinct fare patterns compared to weekdays
 ### Results: Key discoveries and pattern identification
-
+* Busiest Hours: 7 AM–10 AM and 4 PM–7 PM
+* Busiest Weekdays: Friday and Thursday
+* Most Rides by Hour: 8 AM and 5 PM
+* Most Popular Months: March and April
+* Geographic Analysis: Most rides originated from densely populated areas with urban pickup points.
+* Fare Distribution:
+  * Majority of fares are in the $5–$15 range
+  * Outliers suggest premium, long-distance rides or potential data noise
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
