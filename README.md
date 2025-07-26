@@ -52,7 +52,14 @@ Geographic distribution of pickups
 - Fare strongly driven by trip length
 - Temporal clustering around commuting hours
 - Weekday vs. weekend trends suggest varied trip intent
+
 Power BI provided a dynamic platform to visually explore these trends in real time across dimensions like time, distance, and geography.
+### Recommendations: Data driven business suggestions
+1. Adjust pricing dynamically: Marginally raise fares during peak periods to maximize earnings without deterring users
+2. Smart driver allocation: Focus driver deployment in zones and hours with proven high demand
+3. Incentivize off peak usage: Launch promotions during slower times to boost ride volume
+4. Bundle long distance rides: Offer special rates or pass systems for long trips to enhance rider retention
+5. Targeted regional campaigns: Promote in high  activity urban zones with tailored loyalty and partnership programs
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
