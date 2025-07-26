@@ -30,7 +30,10 @@ Steps in Python to get data ready:
 * Saved enhanced dataset to uber_enhanced.csv for use in Power BI
 
 ### Analysis: Detailed findings and statistical insights
-
+EDA Visualizations
+* Histogram & Boxplot: Fare distributions showed right-skewed behavior (a few very high fares)
+* Correlation matrix: Fare amount is strongly correlated with distance traveled
+* Time of Day: Fares tend to spike during peak commute hours (7–10 AM, 4–7 PM)
 
 
 
