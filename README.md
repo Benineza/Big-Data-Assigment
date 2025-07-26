@@ -10,8 +10,8 @@ When rides occur most frequently
 Geographic distribution of pickups
 ### Methodology: Data collection & analysis approach
 The tools I used are: 
-Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
-Power BI Desktop: Visualizations and dashboard creation
+► Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
+► Power BI Desktop: Visualizations and dashboard creation
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
