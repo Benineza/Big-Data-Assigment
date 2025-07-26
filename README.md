@@ -12,29 +12,29 @@ When rides occur most frequently
 
 Geographic distribution of pickups
 ### Methodology: Data collection & analysis approach
-The tools I used are: 
+<u>The tools I used are:</u>
 - Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
 - Power BI Desktop: Visualizations and dashboard creation
 
-Steps in Python to get data ready:
+<u>Steps in Python to get data ready:</u>
 * Removed missing and duplicate records
 * Converted pickup_datetime to datetime format
 * Created new features: hour, day, month, weekday, peak_offpeak categorization, distance_km (calculated using latitude/longitude with Haversine formula)
 * Saved enhanced dataset to uber_enhanced.csv for use in Power BI
 
 ### Analysis: Detailed findings and statistical insights
-EDA Visualizations:
+<u>EDA Visualizations:</u>
 * Histogram & Boxplot: Fare distributions showed right-skewed behavior (a few very high fares)
 * Correlation matrix: Fare amount is strongly correlated with distance traveled
 * Time of Day: Fares tend to spike during peak commute hours (7–10 AM, 4–7 PM)
 
-Descriptive Statistics:
+<u>Descriptive Statistics:</u>
 + Mean fare: $11.46
 + Median fare: $8.50
 + Fare range: Mostly $5–$20
 + Outliers: Some rides above $100, indicating long distance trips
 
-Feature Level Findings:
+<u>Feature Level Findings:</u>
 * Near linear relationship between fare (fare_amount) and distance (distance_km)
 * Higher fares observed during peak times
 * Weekends display distinct fare patterns compared to weekdays
