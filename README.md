@@ -21,13 +21,13 @@ The tools I used are:
 
 Steps in Python to get data ready:
 
-■ Removed missing and duplicate records
+* Removed missing and duplicate records
 
-■ Converted pickup_datetime to datetime format
+* Converted pickup_datetime to datetime format
 
-■ Created new features: hour, day, month, weekday, peak_offpeak categorization, distance_km (calculated using latitude/longitude with Haversine formula)
+* Created new features: hour, day, month, weekday, peak_offpeak categorization, distance_km (calculated using latitude/longitude with Haversine formula)
 
-■ Saved enhanced dataset to uber_enhanced.csv for use in Power BI
+* Saved enhanced dataset to uber_enhanced.csv for use in Power BI
 
 ### Analysis: Detailed findings and statistical insights
 
