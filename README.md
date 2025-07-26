@@ -11,9 +11,9 @@ Geographic distribution of pickups
 ### Methodology: Data collection & analysis approach
 The tools I used are: 
 
-➊ Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
+■ Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
 
-➋ Power BI Desktop: Visualizations and dashboard creation
+■ Power BI Desktop: Visualizations and dashboard creation
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
