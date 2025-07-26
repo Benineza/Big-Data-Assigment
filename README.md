@@ -1,4 +1,17 @@
 # Big-Data-Assigment
+---------------------
+# Uber Fares Data analytical report
+### Project Overview & Objectives
+This analytical initiative explores Uber fare data to focus on patterns in ride frequency, pricing dynamics, and time based trends. The aim is to transform raw data into actionable insights using Python for data wrangling and Power BI for visualization. Key objectives include:
+
+Differences between peak and off-peak periods
+How fare amounts vary by time and distance
+When rides occur most frequently
+Geographic distribution of pickups
+### Methodology: Data collection & analysis approach
+The tools I used are: 
+Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
+Power BI Desktop: Visualizations and dashboard creation
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
