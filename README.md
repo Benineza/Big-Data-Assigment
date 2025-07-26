@@ -15,9 +15,9 @@ Geographic distribution of pickups
 ### Methodology: Data collection & analysis approach
 The tools I used are: 
 
-■ Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
+- Python (pandas, seaborn, matplotlib): Data cleaning, feature engineering, exploratory data analysis
 
-■ Power BI Desktop: Visualizations and dashboard creation
+- Power BI Desktop: Visualizations and dashboard creation
 
 Steps in Python to get data ready:
 
