@@ -47,6 +47,12 @@ Geographic distribution of pickups
 * Fare Distribution:
   * Majority of fares are in the $5–$15 range
   * Outliers suggest premium, long-distance rides or potential data noise
+### Conclusion: Summary of main findings
+- High value fares are infrequent but significant for revenue
+- Fare strongly driven by trip length
+- Temporal clustering around commuting hours
+- Weekday vs. weekend trends suggest varied trip intent
+Power BI provided a dynamic platform to visually explore these trends in real time across dimensions like time, distance, and geography.
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
