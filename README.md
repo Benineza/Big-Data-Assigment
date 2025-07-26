@@ -5,9 +5,13 @@
 This analytical initiative explores Uber fare data to focus on patterns in ride frequency, pricing dynamics, and time based trends. The aim is to transform raw data into actionable insights using Python for data wrangling and Power BI for visualization. Key objectives include:
 
 Differences between peak and off-peak periods
+
 How fare amounts vary by time and distance
+
 When rides occur most frequently
+
 Geographic distribution of pickups
+
 ### Methodology: Data collection & analysis approach
 The tools I used are: 
 
