@@ -94,6 +94,7 @@ print("Std deviation:", df_clean['fare'].std())
 
 ### Correlation Matrix
 <img width="744" height="507" alt="Image" src="https://github.com/user-attachments/assets/ecc669c0-5e4c-4f26-baed-d3c346cc1fb3" />
+
 ## 3. Feature Engineering
 ### Create new analytical features such as: Hour, day, month extracted from timestamps & Day of week categorization & Peak/off-peak time indicators
 Full .py file with the complete codes can be found in the files attached to this repo
