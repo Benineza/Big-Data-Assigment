@@ -102,3 +102,7 @@ print("Std deviation:", df_clean['fare'].std())
 ### Seasonal trends and variations
 
 <img width="1346" height="718" alt="Image" src="https://github.com/user-attachments/assets/935b8ae9-f81a-4de4-b22a-883a710ca4f8" />
+
+## Dashboard in Power BI
+
+<img width="1336" height="700" alt="Image" src="https://github.com/user-attachments/assets/ebf6f5eb-1844-46e1-a1de-507c866c6213" />
