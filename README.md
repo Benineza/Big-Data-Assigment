@@ -114,7 +114,11 @@ def peak_offpeak(hour):
 
 df_clean['peak_offpeak'] = df_clean['hour'].apply(peak_offpeak)
 ```
-
+### Save the enhanced dataset with new features
+```
+# Save enhanced dataset for Power BI
+df_clean.to_csv("C:/Users/USER/Desktop/project/uber_enhanced.csv", index=False)
+```
 ## 4. Data Analysis in Power BI
 ### Fare patterns across different time intervals & Hourly, daily, and monthly ride patterns
 <img width="1336" height="712" alt="Image" src="https://github.com/user-attachments/assets/a35b1ea5-6fd8-4cb8-a6de-eb3695cc2d1b" />
