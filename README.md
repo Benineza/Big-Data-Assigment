@@ -63,22 +63,26 @@ Power BI provided a dynamic platform to visually explore these trends in real ti
 ## 1. Handling missing values and clean the data for analysis
 ```
 # Data Cleaning (Full .py file with the complete codes can be found in the files attached to this repo)
+
 df_clean = df.dropna().drop_duplicates().reset_index(drop=True)
+
 # Also part of data cleaning:
+
 df_clean['pickup_datetime'] = pd.to_datetime(df_clean['pickup_datetime'])
 ```
 ## 2. Exploratory Data Analysis (EDA)
-### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
+### Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
 ```
-print(df_clean.describe())
-print("Mean fare:", ...)
-print("Mode fare:", ...)
+print("Mean fare:", df_clean['fare'].mean())
+print("Median fare:", df_clean['fare'].median())
+print("Mode fare:", df_clean['fare'].mode()[0])
+print("Std deviation:", df_clean['fare'].std())
 ```
-### B) Visualizations showing fare distribution patterns
+### Visualizations showing fare distribution patterns
 <img width="789" height="486" alt="Image" src="https://github.com/user-attachments/assets/d98272f6-3027-44fe-a089-553341b92f33" />
 
-### C) Analyzing relationships between key variables:
+### Analyzing relationships between key variables:
 ### i) Fare amount vs. Distance traveled
 <img width="531" height="416" alt="Image" src="https://github.com/user-attachments/assets/e66e9731-b8c1-4b35-aa7f-85d476477807" />
 
