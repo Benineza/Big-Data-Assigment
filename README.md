@@ -60,6 +60,13 @@ Power BI provided a dynamic platform to visually explore these trends in real ti
 3. Incentivize off peak usage: Launch promotions during slower times to boost ride volume
 4. Bundle long distance rides: Offer special rates or pass systems for long trips to enhance rider retention
 5. Targeted regional campaigns: Promote in high  activity urban zones with tailored loyalty and partnership programs
+## 1. Handling missing values and clean the data for analysis
+```
+# Data Cleaning (Full .py file with the complete codes can be found in the files attached to this repo)
+df_clean = df.dropna().drop_duplicates().reset_index(drop=True)
+# Also part of data cleaning:
+df_clean['pickup_datetime'] = pd.to_datetime(df_clean['pickup_datetime'])
+```
 ## 2. Exploratory Data Analysis (EDA)
 ### A) Descriptive statistics including: Mean, median, mode, standard deviation is in the Python codes I uploaded:
 The codes:
